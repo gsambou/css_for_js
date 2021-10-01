@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* Add styles here! */
+header {
+	width: 100%;
+	margin: 70px 0;
+	margin-left: 70px;
+	padding-left: 10%;
+}
+strong {
+	color: hsl(160deg, 100%, 30%);
+}
+.max-width-wrapper {
+	max-width: 30%;
+}
+.intro-chunck {
+	width: 70%;
+}
+.title {
+	padding-bottom: 6%;
+}
+p {
+	font-size: 1.5rem;
+}
+
+main {
+	width: 100%;
+	margin: 70px 0;
+	background-color: gray;
+
+	padding-top: 5px;
+	padding-bottom: 100px;
+}
+main .max-width-wrapper {
+	max-width: 55%;
+}
+section {
+	width: 95%;
+	margin-left: 160px;
+	margin-top: 50px;
+}
+
+.card {
+	padding: 2px 5% 0% 5%;
+	background-color: white;
+	margin-left: 10px;
+}
+.indented-heading {
+	background-color: orange;
+	width: fit-content;
+	margin-left: -55px;
+	padding: 4%;
+	padding-left: 6%;
+	box-shadow: 0px 10px hsl(45deg, 100%, 40%);
+}
